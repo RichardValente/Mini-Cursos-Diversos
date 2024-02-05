@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* background-image: url(./imagem\ .bmp);
+    background-repeat:no-repeat;
+    background-position: center;*/
+   background-image:url("https://images.unsplash.com/photo-1502786129293-79981df4e689?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTY5NjE4MjYyNA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+
+}
+
+main{
+    background-color: black;
+    opacity: .85;
+    border-radius: 25px;
+    padding: 20px;
+    width: 95%;
+    max-width: 700px;
+    height: 90%;
+}
+
+.pesquisa{
+    padding: 10px;
+}
+
+input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    width: calc(100% - 70px);
+    margin-bottom:30px ;
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius:50px;
+    background-color: #ede2dd76;
+    cursor: pointer;
+    float: right;
+}
+
+button >img{
+ width: 30px;
+}
+
+.cidade{
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.dados-dia{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 45px;
+}
+
+.dados-iniciais{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dados-temperatura{
+    display: flex;
+    margin-right: 30px;
+    
+}
+
+.dados-temperatura > p{
+    font-size: 60px;
+}
+
+.dados-tempo{
+    width: 150px;
+}
+
+.dados-hora{
+    text-align: end;
+    padding-right: 20px;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+ul>li{
+    margin-right: 20px;
+    padding-left: 15px;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+.btn-temp-dados, .resumo-semana-dados{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.temperatura{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+article{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.img-previsao{
+    margin-right: 5px;
+    width: 90px;
+}
+
+.texto-previsao{
+    text-transform: capitalize;
+    font-size: 25px;
+}
+
+.condicao{
+    text-transform: capitalize;
+}
