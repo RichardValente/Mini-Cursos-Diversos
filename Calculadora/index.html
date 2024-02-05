@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+  <main>
+    <section class="calculator">
+        <div class="output">
+            <div class="previews-operand">123</div>
+            <div class="display" id="display">456</div>
+        </div>
+        <table class="calculator-buttons">
+            <tr>
+                <td><button id="limparDisplay" class="comando">CE</button></td>
+                <td><button id="limparCalculo" class="comando">C</button></td>
+                <td><button id="backspace" class="comando">«</button></td>
+                <td><button id="operadorDividir" class="operadores">/</button></td>
+            </tr>
+            <tr>
+                <td><button id="tecla7">7</button></td>
+                <td><button id="tecla8">8</button></td>
+                <td><button id="tecla9">9</button></td>
+                <td><button id="operadorMultiplicar" class="operadores">*</button></td>
+            </tr> 
+            <tr>   
+                <td><button id="tecla4">4</button></td>
+                <td><button id="tecla5">5</button></td>
+                <td><button id="tecla6">6</button></td>
+                <td><button id="operadorDiminuir" class="operadores">-</button></td>
+            </tr>
+            <tr>    
+                <td><button id="tecla1">1</button></td>
+                <td><button id="tecla2">2</button></td>
+                <td><button id="tecla3">3</button></td>
+                <td><button id="operadorSomar" class="operadores">+</button></td>
+            </tr>
+            <tr>
+                <td><button id="inverter" class="arredondado_e">±</button></td>
+                <td><button id="tecla0">0</button></td>
+                <td><button id="decimal">,</button></td>
+                <td><button id="igual" class="operadores arredondado_d">=</button></td>
+            </tr>
+        </table>
+    </section>
+  </main>
+    
+  <Script src="script.js"></Script>
+</body>
+</html>
